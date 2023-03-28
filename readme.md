@@ -33,8 +33,9 @@
   npx tailwindcss init -p
   ```
 
-````
+-
 
-- ```sh
-    npm run dev
-````
+```
+  sh
+  npm run dev
+```
