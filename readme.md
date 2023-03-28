@@ -35,7 +35,6 @@
 
 -
 
-```
-  sh
+```sh
   npm run dev
 ```
