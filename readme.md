@@ -57,3 +57,4 @@ px-8 py-12
 
 . যদি parent এর মদ্যের childrenগলো কে space দিতে হয় তবে spacey-4 দিতে হবে
 . BUTTON e inline-block দিলে padding এর spaceing golo টিক তকবে
+. tracking-widest মানে letter-spacing=0.1em
