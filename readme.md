@@ -45,6 +45,12 @@ div এর element গলো viewport এর edge এর সাথে লেগ�
 
 ![Screenshot 2023-03-29 211223](https://user-images.githubusercontent.com/48369328/228586022-7a351032-862a-4f40-abb0-c7174383bfce.png)
 
+px-4 এবং py-8 দিলে div এর element গলো edge থেকে স্পেস নিবে
+
+```
+px-4 py-8
+```
+
 ![Screenshot 2023-03-28 220417](https://user-images.githubusercontent.com/48369328/228300566-e5ebfbc1-e2c8-4eb3-9ac4-459a7e66f02a.png)
 
 ### tips :
