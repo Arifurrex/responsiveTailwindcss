@@ -75,4 +75,6 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 ```
 
-min width
+div er width 640 er upore max-widht hobe max-w-lg
+
+![Screenshot 2023-03-29 215148](https://user-images.githubusercontent.com/48369328/228632767-b80286e4-a88b-4255-b667-441b9acd879b.png)
