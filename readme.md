@@ -38,3 +38,35 @@
 ```sh
   npm run dev
 ```
+
+## mobile designe
+
+![Screenshot 2023-03-28 220417](https://user-images.githubusercontent.com/48369328/228300566-e5ebfbc1-e2c8-4eb3-9ac4-459a7e66f02a.png)
+
+### tips :
+
+. যদি parent এর মদ্যের childrenগলো কে space দিতে হয় তবে spacey-4 দিতে হবে
+. BUTTON e inline-block দিলে padding এর spaceing golo টিক তকবে
+
+## make it responsive
+
+এখন যদি screen সাইজ বড় করেন তবে ডেকতে পাবেন ইমেজ অনেক বড় হয়ে গেছে । its weird
+
+max-w-md mane div er width max-width bole dilam 448px
+div টা কে center করতে mx-auto করে দিলাম
+
+but এখানে problem হল div টার max-width:448px হওয়ায় লার্জ ডিসপ্লে তে অনেক স্পেস খালি দেখাছে
+
+তাহলে any display তে div টা কিভাবে ভাল দেখাবে
+breakpoint
+
+```
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }
+
+```
+
+min width
