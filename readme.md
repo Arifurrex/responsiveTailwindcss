@@ -94,9 +94,9 @@ finally 2xl
 - p
   - defalut : p font আছে তাই আর sm:text-xl(20px) হবে
 
-# xl breakpont
+# lg breakpont
 
-xl breakpoint onek khali space dekacce
+lg breakpoint onek khali space dekacce
 ami cacci image ek pase takbe ar content ek pashe takbe
 
 ![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228864916-0e901490-a04e-46d5-9ad5-7e6d888632f4.png)
@@ -176,3 +176,95 @@ img কে lg:hidden করে দিলাম ।
 ```
 
 ![Screenshot 2023-03-30 203000](https://user-images.githubusercontent.com/48369328/228869500-f269b610-b2d0-4184-9740-3c9bc408adfa.png)
+
+- h1
+
+  - default: h1 er font size hobe
+  - text-2xl(24px ) এবং
+  - sm:text-4xl(36 px) এবং
+  - lg:text-3xl(30px)
+
+  - font-weight hobe font-bold
+
+- p
+  - defalut : p font আছে তাই আর sm:text-xl(20px) হবে
+
+```sh
+<div class="grid grid-cols-2">
+      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 py-48">
+        <img class="h-10" src="img/twitch.png" alt="" />
+        <img
+          class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden"
+          src="img/workonremote.webp"
+          alt=""
+        />
+        <h1
+          class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl"
+        >
+          You can work on anywhere .
+          <span class="text-red-500">Take advantage of it</span>
+        </h1>
+        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+          Twitch will helps you find work-friendly rentals in beautiful so you
+          can enjoy some niece weather even when your're not on vacation
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a
+            class="inline-block bg-red-500 text-white px-5 py-3 rounded-lg font-semibold font-medium shadow-lg shadow-red-400 uppercase tracking-widest sm:text-base"
+            href=""
+            >Book your space</a
+          >
+        </div>
+      </div>
+
+      <div>
+        <img class="hidden lg:block" src="img/workonremote.webp" alt="" />
+      </div>
+    </div>
+
+```
+
+![Screenshot 2023-03-30 204312](https://user-images.githubusercontent.com/48369328/228874358-225a5a28-9cc3-4cb9-9a18-47563cf7fb77.png)
+
+### কিভাবে full and space nibe
+
+```sh
+<body class="bg-slate-200">
+    <div class="bg-gray-300 grid grid-cols-2">
+      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 py-48">
+        <img class="h-10" src="img/twitch.png" alt="" />
+        <img
+          class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden"
+          src="img/workonremote.webp"
+          alt=""
+        />
+        <h1
+          class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl"
+        >
+          You can work on anywhere .
+          <span class="text-red-500">Take advantage of it</span>
+        </h1>
+        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+          Twitch will helps you find work-friendly rentals in beautiful so you
+          can enjoy some niece weather even when your're not on vacation
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a
+            class="inline-block bg-red-500 text-white px-5 py-3 rounded-lg font-semibold font-medium shadow-lg shadow-red-400 uppercase tracking-widest sm:text-base"
+            href=""
+            >Book your space</a
+          >
+        </div>
+      </div>
+
+      <div class="hidden relative lg:block">
+        <img
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          src="img/workonremote.webp"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+
+```

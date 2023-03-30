@@ -7,16 +7,18 @@
     <title>tailwind css</title>
     <link rel="stylesheet" href="css/tailwind.css" />
   </head>
-  <body>
-    <div class="grid grid-cols-2">
-      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl">
+  <body class="bg-slate-200">
+    <div class="bg-gray-300 grid grid-cols-2">
+      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 py-48">
         <img class="h-10" src="img/twitch.png" alt="" />
         <img
           class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden"
           src="img/workonremote.webp"
           alt=""
         />
-        <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl">
+        <h1
+          class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl"
+        >
           You can work on anywhere .
           <span class="text-red-500">Take advantage of it</span>
         </h1>
@@ -33,8 +35,12 @@
         </div>
       </div>
 
-      <div>
-        <img class="hidden lg:block" src="img/workonremote.webp" alt="" />
+      <div class="hidden relative lg:block">
+        <img
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          src="img/workonremote.webp"
+          alt=""
+        />
       </div>
     </div>
   </body>
