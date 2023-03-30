@@ -269,7 +269,7 @@ img কে lg:hidden করে দিলাম ।
 
 ```
 
-## problem: larger breakpoint e tik ace but smaller breakpoint e designe ভেঙে গেছে
+### problem: larger breakpoint e tik ace but smaller breakpoint e designe ভেঙে গেছে
 
 নিচের দিকে breakpoint এ সব gird-cols-2 ডেকাচ্ছে
 
@@ -319,7 +319,7 @@ so grid container e lg:grid-cols-2 dile ei sommar solution hobe . specify kore d
 
 ```
 
-## sm:max-w-md to lg:max-w-full
+### sm:max-w-md to lg:max-w-full
 
 ![Screenshot 2023-03-30 211120](https://user-images.githubusercontent.com/48369328/228882687-3ef0fdd6-b76b-478b-918f-3e741b1e1adb.png)
 
@@ -363,3 +363,5 @@ so grid container e lg:grid-cols-2 dile ei sommar solution hobe . specify kore d
     </div>
 
 ```
+
+# xl breakpont
