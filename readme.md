@@ -103,6 +103,9 @@ ami cacci image ek pase takbe ar content ek pashe takbe
 
 ![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228862907-139b10ad-1208-496e-8966-d642abce4082.png)
 
+img কে lg:hidden করে দিলাম
+আলাদা div এ image নিলাম hidden করে দিলাম আর lg:block করে দিলাম
+
 ```sh
 
 <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl">
