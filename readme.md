@@ -102,3 +102,35 @@ ami cacci image ek pase takbe ar content ek pashe takbe
 ![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228864916-0e901490-a04e-46d5-9ad5-7e6d888632f4.png)
 
 ![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228862907-139b10ad-1208-496e-8966-d642abce4082.png)
+
+```sh
+
+<div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl">
+      <img class="h-10" src="img/twitch.png" alt="" />
+      <img
+        class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden"
+        src="img/workonremote.webp"
+        alt=""
+      />
+      <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl">
+        You can work on anywhere .
+        <span class="text-red-500">Take advantage of it</span>
+      </h1>
+      <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+        Twitch will helps you find work-friendly rentals in beautiful so you can
+        enjoy some niece weather even when your're not on vacation
+      </p>
+      <div class="mt-4 sm:mt-6">
+        <a
+          class="inline-block bg-red-500 text-white px-5 py-3 rounded-lg font-semibold font-medium shadow-lg shadow-red-400 uppercase tracking-widest sm:text-base"
+          href=""
+          >Book your space</a
+        >
+      </div>
+    </div>
+
+    <div>
+      <img class="hidden lg:block" src="img/workonremote.webp" alt="" />
+    </div>
+
+```
