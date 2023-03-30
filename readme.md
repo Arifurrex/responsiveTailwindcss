@@ -94,7 +94,7 @@ finally 2xl
 - p
   - defalut : p font আছে তাই আর sm:text-xl(20px) হবে
 
-# lg breakpont
+# lg breakpont(sm 640px @media (min-width: 640px) { ... })
 
 lg breakpoint onek khali space dekacce
 ami cacci image ek pase takbe ar content ek pashe takbe
@@ -364,4 +364,121 @@ so grid container e lg:grid-cols-2 dile ei sommar solution hobe . specify kore d
 
 ```
 
-# xl breakpont
+# xl breakpont (xl 1280px @media (min-width: 1280px) { ... })
+
+```
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }
+
+```
+
+- h1
+
+  - default: h1 er font size hobe
+  - text-2xl(24px ) এবং
+  - sm:text-4xl(36 px) এবং
+  - lg:text-3xl(30px)
+  - xl:text-4xl(36px)
+
+  - font-weight hobe font-bold
+
+- p
+  - defalut : p font আছে তাই আর sm:text-xl(20px) হবে
+
+### xl:max-w-xl set on content
+
+```sh
+
+<div class="bg-gray-300 grid lg:grid-cols-2">
+      <div
+        class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-48 lg:max-w-full"
+      >
+        <div class="xl:max-w-xl">
+          <img class="h-10" src="img/twitch.png" alt="" />
+          <img
+            class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden"
+            src="img/workonremote.webp"
+            alt=""
+          />
+          <h1
+            class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
+          >
+            You can work on anywhere .
+            <br class="hidden lg:inline" />
+            <span class="text-red-500">Take advantage of it</span>
+          </h1>
+          <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+            Twitch will helps you find work-friendly rentals in beautiful so you
+            can enjoy some niece weather even when your're not on vacation
+          </p>
+          <div class="mt-4 sm:mt-6">
+            <a
+              class="inline-block bg-red-500 text-white px-5 py-3 rounded-lg font-semibold font-medium shadow-lg shadow-red-400 uppercase tracking-widest sm:text-base"
+              href=""
+              >Book your space</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="hidden relative lg:block">
+        <img
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          src="img/workonremote.webp"
+          alt=""
+        />
+      </div>
+    </div>
+
+```
+
+### xl:mr-0
+
+```sh
+  <div class="bg-gray-300 grid lg:grid-cols-2">
+      <div
+        class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-48 lg:max-w-full xl:mr-0"
+      >
+        <div class="xl:max-w-xl">
+          <img class="h-10" src="img/twitch.png" alt="" />
+          <img
+            class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden"
+            src="img/workonremote.webp"
+            alt=""
+          />
+          <h1
+            class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
+          >
+            You can work on anywhere .
+            <br class="hidden lg:inline" />
+            <span class="text-red-500">Take advantage of it</span>
+          </h1>
+          <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+            Twitch will helps you find work-friendly rentals in beautiful so you
+            can enjoy some niece weather even when your're not on vacation
+          </p>
+          <div class="mt-4 sm:mt-6">
+            <a
+              class="inline-block bg-red-500 text-white px-5 py-3 rounded-lg font-semibold font-medium shadow-lg shadow-red-400 uppercase tracking-widest sm:text-base"
+              href=""
+              >Book your space</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="hidden relative lg:block">
+        <img
+          class="absolute inset-0 w-full h-full object-cover object-center"
+          src="img/workonremote.webp"
+          alt=""
+        />
+      </div>
+    </div>
+
+```
+
+# 2xl breakpoint
