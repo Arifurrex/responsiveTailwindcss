@@ -75,7 +75,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 ```
 
-div er width 640 er upore max-widht hobe max-w-lg
+div er width 640 er upore max-widht hobe max-w-xl
 
 ![Screenshot 2023-03-29 215148](https://user-images.githubusercontent.com/48369328/228632767-b80286e4-a88b-4255-b667-441b9acd879b.png)
 
@@ -84,3 +84,11 @@ then md er breakpoint set korbo
 then lg er breakpoint er jonno set korbo
 after that xl er
 finally 2xl
+
+- h1
+  . default: h1 er font size hobe text-2xl(২৪ px ) এবং sm:text-4xl(36 px) এবং
+
+  . font-weight hobe font-bold
+
+-p
+. defalut : p font আছে তাই আর sm:text-xl(20px) হবে
