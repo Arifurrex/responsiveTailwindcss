@@ -86,9 +86,10 @@ after that xl er
 finally 2xl
 
 - h1
-  . default: h1 er font size hobe text-2xl(২৪ px ) এবং sm:text-4xl(36 px) এবং
+
+  - default: h1 er font size hobe text-2xl(২৪ px ) এবং sm:text-4xl(36 px) এবং
 
   . font-weight hobe font-bold
 
--p
-. defalut : p font আছে তাই আর sm:text-xl(20px) হবে
+- p
+  - defalut : p font আছে তাই আর sm:text-xl(20px) হবে
