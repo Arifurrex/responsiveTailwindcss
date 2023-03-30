@@ -87,9 +87,18 @@ finally 2xl
 
 - h1
 
-  - default: h1 er font size hobe text-2xl(২৪ px ) এবং sm:text-4xl(36 px) এবং
+  - default: h1 er font size hobe text-2xl(24px ) এবং sm:text-4xl(36 px) এবং
 
-  . font-weight hobe font-bold
+  - font-weight hobe font-bold
 
 - p
   - defalut : p font আছে তাই আর sm:text-xl(20px) হবে
+
+# xl breakpont
+
+xl breakpoint onek khali space dekacce
+ami cacci image ek pase takbe ar content ek pashe takbe
+
+![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228859010-1b9af0d2-45a6-4eca-8705-052183578d87.png)
+
+![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228862907-139b10ad-1208-496e-8966-d642abce4082.png)
