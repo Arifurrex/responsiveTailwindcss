@@ -547,3 +547,13 @@ hover:-translate-y-0
 ```
 
 3.  transform er maddome any transform will be apply
+
+![Screenshot 2023-03-31 213106](https://user-images.githubusercontent.com/48369328/229164783-78dec724-bcd1-489d-950e-028486c269af.png)
+
+```sh
+focus:ring
+```
+
+![Screenshot 2023-03-31 213514](https://user-images.githubusercontent.com/48369328/229165668-82346a83-8613-4aab-876f-60e0ad442509.png)
+
+focus:ring দিলে blue outline দেখা যাবে
