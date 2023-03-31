@@ -557,3 +557,21 @@ focus:ring
 ![Screenshot 2023-03-31 213514](https://user-images.githubusercontent.com/48369328/229165668-82346a83-8613-4aab-876f-60e0ad442509.png)
 
 focus:ring দিলে blue outline দেখা যাবে
+
+```sh
+focus:ring
+```
+
+![Screenshot 2023-03-31 213953](https://user-images.githubusercontent.com/48369328/229166718-6aa0f363-255f-427a-833f-499dc57f9176.png)
+
+```sh
+focus:ring-offset-2
+```
+
+focus:ring-offset-2 দিলে blue outline দেখা যাবে
+
+![Screenshot 2023-03-31 214249](https://user-images.githubusercontent.com/48369328/229167416-e0513122-08fc-41dd-91ae-10f84ae78417.png)
+
+```sh
+focus:ring-red-500
+```
