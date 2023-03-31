@@ -528,3 +528,22 @@ xl	1280px	@media (min-width: 1280px) { ... }
     </div>
 
 ```
+
+# hover, Focus and Other States
+
+![Screenshot 2023-03-30 211120](https://user-images.githubusercontent.com/48369328/229160246-80834ee5-b6af-4c0e-90c8-7ed183744b3e.png)
+
+1.
+
+```sh
+ bg-red-500 hover:bg-red-400
+
+```
+
+2.  hover:-translate-y-0 er maddome 2px lift hobe
+
+```sh
+hover:-translate-y-0
+```
+
+3.  transform er maddome any transform will be apply
