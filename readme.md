@@ -531,6 +531,10 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 # hover, Focus and Other States
 
+[link](https://tailwindcss.com/docs/hover-focus-and-other-states)
+
+## hover
+
 ![Screenshot 2023-03-30 211120](https://user-images.githubusercontent.com/48369328/229160246-80834ee5-b6af-4c0e-90c8-7ed183744b3e.png)
 
 1.
@@ -547,6 +551,8 @@ hover:-translate-y-0
 ```
 
 3.  transform er maddome any transform will be apply
+
+## focus
 
 ![Screenshot 2023-03-31 213106](https://user-images.githubusercontent.com/48369328/229164783-78dec724-bcd1-489d-950e-028486c269af.png)
 
@@ -574,4 +580,10 @@ focus:ring-offset-2 দিলে blue outline দেখা যাবে
 
 ```sh
 focus:ring-red-500
+```
+
+## active
+
+```sh
+active:bg-red-600
 ```
