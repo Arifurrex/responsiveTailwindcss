@@ -91,11 +91,11 @@ div টা কে center করতে mx-auto করে দিলাম । এ�
 ![Screenshot 2023-03-30 000144](https://user-images.githubusercontent.com/48369328/228627834-90fdea6b-78e6-4577-8e60-5ee93bc35751.png)
 
 ### max-w-md is problem in large screen
-but এখানে problem হল div টার max-width:448px হওয়ায় লার্জ ডিসপ্লে তে অনেক স্পেস খালি দেখাছে
+but এখানে problem হল div টার max-w-md বা max-width:448px হওয়ায় লার্জ ডিসপ্লে তে অনেক স্পেস খালি দেখাছে
 
 তাহলে any display তে div টা কিভাবে ভাল দেখাবে
-breakpoint
 
+*breakpoint
 tailwind css এর ৫ টা breakpoint আছে
 
 ```
@@ -107,7 +107,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 ```
 
-div er width 640 er upore max-widht hobe max-w-xl
+in breakpoint div এর width 640px বা sm এর উপরে হলে maximum width হবে max-w-xl বা max-width:512px 
 
 
 default setting er por প্রথমে sm device er jonne set korbo
