@@ -83,9 +83,9 @@
 
 ![Screenshot 2023-05-09 152247](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/7ce041a7-bce3-404f-a29b-32682c4ad627)
 
-এখন যদি screen সাইজ বড় করেন তবে ডেকতে পাবেন ইমেজ অনেক বড় হয়ে গেছে । its weird তাই 
-max-w-md মানে div er width max-width bole dilam 448px
-div টা কে center করতে mx-auto করে দিলাম
+এখন যদি screen সাইজ বড় করেন তবে ডেকতে পাবেন ইমেজ ও কন্টেন্ট অনেক বড় হয়ে গেছে । its weird দেখতে তাই আমরা 
+max-w-md মানে div er width max-width:448px bole dilam এবং 
+div টা কে center করতে mx-auto করে দিলাম । এতে পুরো div এর maximum width হবে 448 px । এবং mx-auto দেযায় margin-left:auto ;margin-right:auto হবে মানে div টা center এ হবে । 
 
 ![Screenshot 2023-03-30 000144](https://user-images.githubusercontent.com/48369328/228627834-90fdea6b-78e6-4577-8e60-5ee93bc35751.png)
 
