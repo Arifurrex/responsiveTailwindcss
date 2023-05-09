@@ -68,7 +68,7 @@
 ```
 ## mobile designe
 
-![Screenshot 2023-03-28 220417](https://user-images.githubusercontent.com/48369328/228300566-e5ebfbc1-e2c8-4eb3-9ac4-459a7e66f02a.png)
+![Screenshot 2023-05-09 152117](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/98073a60-bbb8-4ddc-b280-215a8d959b26)
 
 ### tips :
 
@@ -81,7 +81,7 @@
 
 এখন যদি screen সাইজ বড় করেন তবে ডেকতে পাবেন ইমেজ অনেক বড় হয়ে গেছে । 
 
-![Screenshot 2023-03-29 215148](https://user-images.githubusercontent.com/48369328/228596274-3a086d3b-8c0b-4b85-a6e8-06d5c495a50b.png)
+![Screenshot 2023-05-09 152247](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/7ce041a7-bce3-404f-a29b-32682c4ad627)
 
 এখন যদি screen সাইজ বড় করেন তবে ডেকতে পাবেন ইমেজ অনেক বড় হয়ে গেছে । its weird তাই 
 max-w-md মানে div er width max-width bole dilam 448px
