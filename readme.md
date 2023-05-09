@@ -142,7 +142,9 @@ finally 2xl
 lg breakpoint onek khali space dekacce
 ami cacci image ek pase takbe ar content ek pashe takbe
 
-![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228864916-0e901490-a04e-46d5-9ad5-7e6d888632f4.png)
+
+![Screenshot 2023-05-10 004028](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/1d52fcaa-96a7-433e-9866-4dd82c1ecf5f)
+
 
 ![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228862907-139b10ad-1208-496e-8966-d642abce4082.png)
 
