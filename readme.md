@@ -48,6 +48,35 @@
 . যদি parent এর মদ্যের childrenগলো কে space দিতে হয় তবে spacey-4 দিতে হবে
 . BUTTON e inline-block দিলে padding এর spaceing golo টিক তকবে
 
+## designe starting
+```sh
+  <body>
+    <div class="px-8 py-12">
+      <img class="h-10" src="img/twitch.png" alt="" />
+      <img
+        class="mt-6 rounded-lg shadow-xl"
+        src="img/workonremote.webp"
+        alt=""
+      />
+      <h1 class="mt-6 text-2xl font-bold text-gray-900">
+        You can work on anywhere .
+        <span class="text-red-500">Take advantage of it</span>
+      </h1>
+      <p class="mt-4 text-gray-600">
+        Twitch will helps you find work-friendly rentals in beautiful so you can
+        enjoy some niece weather even when your're not on vacation
+      </p>
+      <div class="mt-4">
+        <a
+          class="inline-block bg-red-500 text-white px-5 py-3 rounded-lg font-semibold font-medium shadow-lg shadow-red-400 uppercase tracking-widest"
+          href=""
+          >Book your space</a
+        >
+      </div>
+    </div>
+  </body>
+```
+
 ## make it responsive
 
 এখন যদি screen সাইজ বড় করেন তবে ডেকতে পাবেন ইমেজ অনেক বড় হয়ে গেছে । its weird
