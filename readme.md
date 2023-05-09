@@ -38,16 +38,6 @@
 ```sh
   npm run dev
 ```
-
-## mobile designe
-
-![Screenshot 2023-03-28 220417](https://user-images.githubusercontent.com/48369328/228300566-e5ebfbc1-e2c8-4eb3-9ac4-459a7e66f02a.png)
-
-### tips :
-
-. যদি parent এর মদ্যের childrenগলো কে space দিতে হয় তবে spacey-4 দিতে হবে
-. BUTTON e inline-block দিলে padding এর spaceing golo টিক তকবে
-
 ## designe starting
 ```sh
   <body>
@@ -76,6 +66,16 @@
     </div>
   </body>
 ```
+## mobile designe
+
+![Screenshot 2023-03-28 220417](https://user-images.githubusercontent.com/48369328/228300566-e5ebfbc1-e2c8-4eb3-9ac4-459a7e66f02a.png)
+
+### tips :
+
+. যদি parent এর মদ্যের childrenগলো কে space দিতে হয় তবে spacey-4 দিতে হবে
+. BUTTON e inline-block দিলে padding এর spaceing golo টিক তকবে
+
+
 
 ## make it responsive
 
