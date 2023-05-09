@@ -121,6 +121,7 @@ max-w-xl	max-width: 36rem; /* 576px */
 
 ```
 
+## কোন breakpoint নিয়ে আগে কাজ করব ? breakpoint sequence :
 default setting er por প্রথমে sm device er jonne set korbo
 then md er breakpoint set korbo
 then lg er breakpoint er jonno set korbo
