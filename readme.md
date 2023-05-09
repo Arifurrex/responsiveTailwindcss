@@ -137,10 +137,9 @@ finally 2xl
 - p
   - defalut : p font আছে তাই আর sm:text-xl(20px) হবে
 
-# lg breakpont(sm 640px @media (min-width: 640px) { ... })
+### min-width: 640px বা sm breakpoint এ :
 
-lg breakpoint onek khali space dekacce
-ami cacci image ek pase takbe ar content ek pashe takbe
+640px এর উপরের breakpoint এ অনেক খালি space দেখাচ্ছে । আমি চাচ্ছি image এক পাশে থাকবে আর content অন্য পাশে থাকবে ।  
 
 
 ![Screenshot 2023-05-10 004028](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/1d52fcaa-96a7-433e-9866-4dd82c1ecf5f)
