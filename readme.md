@@ -83,7 +83,7 @@
 
 ![Screenshot 2023-03-29 215148](https://user-images.githubusercontent.com/48369328/228596274-3a086d3b-8c0b-4b85-a6e8-06d5c495a50b.png)
 
-max-w-md mane div er width max-width bole dilam 448px
+max-w-md মানে div er width max-width bole dilam 448px
 div টা কে center করতে mx-auto করে দিলাম
 
 ![Screenshot 2023-03-30 000144](https://user-images.githubusercontent.com/48369328/228627834-90fdea6b-78e6-4577-8e60-5ee93bc35751.png)
