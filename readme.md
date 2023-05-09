@@ -79,7 +79,7 @@
 
 ## make it responsive
 
-এখন যদি screen সাইজ বড় করেন তবে ডেকতে পাবেন ইমেজ অনেক বড় হয়ে গেছে । 
+এখন যদি screen সাইজ বড় করেন তবে ডেকতে পাবেন ইমেজ ও content অনেক large হয়ে গেছে । 
 
 ![Screenshot 2023-05-09 152247](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/7ce041a7-bce3-404f-a29b-32682c4ad627)
 
@@ -107,7 +107,6 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 div er width 640 er upore max-widht hobe max-w-xl
 
-![Screenshot 2023-05-09 131447](https://user-images.githubusercontent.com/48369328/237055582-63609977-b64c-4773-ae03-2ce33a85cf95.png)
 
 default setting er por প্রথমে sm device er jonne set korbo
 then md er breakpoint set korbo
