@@ -145,7 +145,7 @@ finally 2xl
 ![Screenshot 2023-05-10 004028](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/1d52fcaa-96a7-433e-9866-4dd82c1ecf5f)
 
 
-![Screenshot 2023-03-30 195409](https://user-images.githubusercontent.com/48369328/228862907-139b10ad-1208-496e-8966-d642abce4082.png)
+![Screenshot 2023-05-10 010013](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/b53bba23-ed48-4fde-9268-d8b02dbde90e)
 
 img কে lg:hidden করে দিলাম ।
 আলাদা div এ image নিলাম hidden করে দিলাম আর lg:block করে দিলাম
