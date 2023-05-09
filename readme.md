@@ -109,6 +109,18 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 in breakpoint div এর width 640px বা sm এর উপরে হলে maximum width হবে max-w-xl বা max-width:512px 
 
+* max-width *
+```sh
+Class
+Properties
+max-w-0	max-width: 0rem; /* 0px */
+max-w-none	max-width: none;
+max-w-xs	max-width: 20rem; /* 320px */
+max-w-sm	max-width: 24rem; /* 384px */
+max-w-md	max-width: 28rem; /* 448px */
+max-w-lg	max-width: 32rem; /* 512px */
+max-w-xl	max-width: 36rem; /* 576px */
+```
 
 default setting er por প্রথমে sm device er jonne set korbo
 then md er breakpoint set korbo
