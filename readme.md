@@ -409,7 +409,7 @@ so grid container e lg:grid-cols-2 দিলে এই সমসার সমা
 
 ```
 
-# xl breakpont (xl 1280px @media (min-width: 1280px) { ... })
+# xl breakpont 
 
 ```
 sm	640px	@media (min-width: 640px) { ... }
