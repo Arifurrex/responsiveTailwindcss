@@ -320,7 +320,7 @@ img কে lg:hidden করে দিলাম ।
 
 ![Screenshot 2023-05-14 195734](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/5057844c-4e02-47d5-9b18-654b5527dfaa)
 
-so grid container e lg:grid-cols-2 dile ei sommar solution hobe . specify kore dite hobe grid-cols-2 ta lg er jonne
+so grid container e lg:grid-cols-2 দিলে এই সমসার সমাদন হবে . specify করে দিতে হবে grid-cols-2 টা  lg এর জন্যে
 
 ```sh
 
@@ -366,7 +366,7 @@ so grid container e lg:grid-cols-2 dile ei sommar solution hobe . specify kore d
 
 ### sm:max-w-md to lg:max-w-full
 
-![Screenshot 2023-03-30 211120](https://user-images.githubusercontent.com/48369328/228882687-3ef0fdd6-b76b-478b-918f-3e741b1e1adb.png)
+![Screenshot 2023-05-14 200041](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/88dfcae6-ca13-48a7-b5ab-627715b7f390)
 
 ```sh
 <div class="bg-gray-300 grid lg:grid-cols-2">
