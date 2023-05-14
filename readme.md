@@ -317,7 +317,8 @@ img কে lg:hidden করে দিলাম ।
 
 নিচের দিকে breakpoint এ সব gird-cols-2 ডেকাচ্ছে
 
-![Screenshot 2023-03-30 205550](https://user-images.githubusercontent.com/48369328/228878044-e800d3f3-849a-46dc-a269-71d568f6970f.png)
+
+![Screenshot 2023-05-14 195734](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/5057844c-4e02-47d5-9b18-654b5527dfaa)
 
 so grid container e lg:grid-cols-2 dile ei sommar solution hobe . specify kore dite hobe grid-cols-2 ta lg er jonne
 
