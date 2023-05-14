@@ -267,7 +267,8 @@ img কে lg:hidden করে দিলাম ।
 
 ```
 
-![Screenshot 2023-03-30 204312](https://user-images.githubusercontent.com/48369328/228874358-225a5a28-9cc3-4cb9-9a18-47563cf7fb77.png)
+![Screenshot 2023-05-14 195505](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/31bd8e3a-3ee1-4c76-b7ef-672d7e36e0e1)
+
 
 ### কিভাবে image full and space nibe with relative and absulate
 
