@@ -219,8 +219,7 @@ img কে lg:hidden করে দিলাম ।
 
 ```
 
-![Screenshot 2023-03-30 203000](https://user-images.githubusercontent.com/48369328/228869500-f269b610-b2d0-4184-9740-3c9bc408adfa.png)
-
+![Screenshot 2023-05-14 195230](https://github.com/Arifurrex/responsiveTailwindcss/assets/48369328/1555e1de-016d-4bbc-8ca4-fb48a31276c7)
 - h1
 
   - default: h1 er font size hobe
